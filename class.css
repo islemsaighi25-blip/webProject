@@ -1,0 +1,96 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0a0a0a;
+    color: #f5f0e8;
+}
+
+ 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    background-color: #111;
+    border-bottom: 2px solid #ff493f;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+header h1 .gym {
+    color: #ff3f3f;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: #e8ff3f;
+}
+
+ 
+main {
+    padding: 3rem;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+thead th {
+    background-color: #1a1a1a;
+    color: #e8ff3f;
+    padding: 1rem;
+    text-align: left;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e8ff3f;
+}
+
+tbody tr {
+    border-bottom: 1px solid #222;
+    transition: background 0.2s;
+}
+
+tbody tr:hover {
+    background-color: #1a1a1a;
+}
+
+tbody td {
+    padding: 1rem;
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+tbody td a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+tbody td a:hover {
+    color: #e8ff3f;
+}

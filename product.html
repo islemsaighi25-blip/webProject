@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin - Plan Management</title>
+</head>
+<body>
+
+<header>
+<h1>Plan Management</h1>
+</header>
+
+<main>
+
+    <section>
+        <h2>Existing Plans</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Plan Name</th>
+                    <th>Price</th>
+                    <th>Duration</th>
+                    <th>Features</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bronze</td>
+                    <td>$20</td>
+                    <td>1 Month</td>
+                    <td>Gym access</td>
+                    <td>
+                    <button type="button">Edit</button>
+                    <button type="button">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Silver</td>
+                    <td>$50</td>
+                    <td>3 Months</td>
+                    <td>Gym + Classes</td>
+                    <td>
+                    <button type="button">Edit</button>
+                    <button type="button">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gold</td>
+                    <td>$150</td>
+                    <td>1 Year</td>
+                    <td>Full Access + Trainer</td>
+                    <td>
+                    <button type="button">Edit</button>
+                    <button type="button">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Add New Plan</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="plan-name">Plan Name</label>
+                <input type="text" id="plan-name" name="plan-name">
+            </div>
+            <br>
+            <div>
+                <label for="price">Price</label>
+                <input type="number" id="price" name="price">
+            </div>
+            <br>
+            <div>
+                <label for="duration">Duration</label>
+                <input type="text" id="duration" name="duration">
+            </div>
+            <br>
+            <div>
+                <label for="description">Description</label>
+                <textarea id="description" name="description"></textarea>
+            </div>
+            <br>
+            <button type="submit">Add Plan</button>
+
+        </form>
+
+    </section>
+
+</main>
+</body>
+</html>
